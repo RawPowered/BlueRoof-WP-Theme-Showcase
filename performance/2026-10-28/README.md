@@ -9,7 +9,7 @@ Google PageSpeed Insights reported a Lighthouse Performance score of **100 on mo
 | Mobile | 100 | 100 | 96 | 92 | 0.8 s | 1.2 s | 0 ms | 0 | 1.9 s |
 | Desktop | 100 | 100 | 96 | 92 | 0.3 s | 0.3 s | 0 ms | 0 | 0.5 s |
 
-The timestamped PageSpeed screenshots below retain the captured report details. 
+The timestamped PageSpeed screenshots below retain the captured report details.
 
 ## Test setup
 
