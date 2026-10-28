@@ -19,6 +19,12 @@ BlueRoof WP Theme presents roofing services in plain language. The homepage move
 | Readability | Large type, measured line lengths, strong contrast, generous spacing |
 | Performance | Responsive WebP hero, lazy-loaded supporting images, one stylesheet, small deferred script |
 
+## Hosted WordPress performance snapshot
+
+The generic roofing homepage is installed on a clean hosted WordPress test site with seven WebP images. The October 28, 2026 PageSpeed Insights lab run scored 100 for Performance on mobile and desktop. The dated report, screenshots, test conditions, and remaining audit items are recorded in [the performance log](performance/2026-10-28/README.md).
+
+The test site is a working theme preview, not a production roofing business: [Open the hosted WordPress demo](https://wp1.rawlabs.paylesswatts.com/). Lighthouse reported no real-user field data for this URL at the time of the run.
+
 ## WordPress foundation
 
 The private development package is a custom classic WordPress theme. It includes page, post, archive, search, comment, sidebar, and 404 templates, plus logo support, menu locations, a Customizer header action, and a roofing homepage pattern. The public preview is static HTML generated from the theme's homepage pattern. It demonstrates the design without processing contact information.
