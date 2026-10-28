@@ -2,9 +2,17 @@
   <img src="assets/case-study-banner.svg" alt="BlueRoof WP Theme, a roofing website system documented with live demo and dated evidence" width="100%">
 </p>
 
+<p align="center"><strong>THE FIRST SCREEN / BLUE ROOFING CO.</strong></p>
+
 <p align="center">
-  <a href="screenshots/full-desktop.png"><img src="screenshots/desktop.png" alt="BlueRoof theme desktop homepage preview" width="66%"></a>
-  <a href="screenshots/full-mobile.png"><img src="screenshots/mobile.png" alt="BlueRoof theme mobile homepage preview" width="31%"></a>
+  <a href="screenshots/desktop.png"><img src="screenshots/desktop.png" alt="BlueRoof theme first-screen desktop homepage preview" width="100%"></a>
+</p>
+
+<p align="center"><strong>FULL-PAGE PREVIEW / DESKTOP + MOBILE</strong></p>
+
+<p align="center">
+  <a href="screenshots/full-desktop.png"><img src="screenshots/desktop.png" alt="Full desktop BlueRoof homepage preview" width="65%"></a>
+  <a href="screenshots/full-mobile.png"><img src="screenshots/mobile.png" alt="Full mobile BlueRoof homepage preview" width="30%"></a>
 </p>
 
 <p align="center">
@@ -36,12 +44,12 @@ This public repository presents the product, design decisions, live previews, an
 
 | Layer | Used for |
 | --- | --- |
-| PHP 8.0+ | WordPress theme templates and setup |
-| WordPress 6.6+ | Theme framework, menus, Customizer, and content patterns; live demo checked on 7.1.3 |
-| HTML5 | Semantic content and accessible navigation |
-| CSS3 | Responsive layouts, visual states, and reduced-motion behavior |
-| Vanilla JavaScript | Deferred menu and scroll-header interactions |
-| WebP | Responsive hero and roof-material imagery |
+| <img src="assets/icons/php.svg" width="36" alt=""> PHP 8.0+ | WordPress theme templates and setup |
+| <img src="assets/icons/wordpress.svg" width="36" alt=""> WordPress 6.6+ | Theme framework, menus, Customizer, and content patterns; live demo checked on 7.1.3 |
+| <img src="assets/icons/html5.svg" width="36" alt=""> HTML5 | Semantic content and accessible navigation |
+| <img src="assets/icons/css3.svg" width="36" alt=""> CSS3 | Responsive layouts, visual states, and reduced-motion behavior |
+| <img src="assets/icons/javascript.svg" width="36" alt=""> Vanilla JavaScript | Deferred menu and scroll-header interactions |
+| <img src="assets/icons/webp.svg" width="36" alt=""> WebP | Responsive hero and roof-material imagery |
 
 No page builder is required by the theme design. The hosted test homepage was populated on a fresh WordPress install without added plugins.
 
