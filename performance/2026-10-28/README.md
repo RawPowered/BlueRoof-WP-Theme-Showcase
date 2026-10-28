@@ -9,11 +9,11 @@ Google PageSpeed Insights reported a Lighthouse Performance score of **100 on mo
 | Mobile | 100 | 100 | 96 | 92 | 0.8 s | 1.2 s | 0 ms | 0 | 1.9 s |
 | Desktop | 100 | 100 | 96 | 92 | 0.3 s | 0.3 s | 0 ms | 0 | 0.5 s |
 
-The timestamped PageSpeed screenshots below retain the captured report details. The internal test address is not linked from this public showcase.
+The timestamped PageSpeed screenshots below retain the captured report details. 
 
 ## Test setup
 
-- Site: internal hosted WordPress 7.1.3 installation with the BlueRoof WP Theme active and no added plugins. Its address is withheld from this public showcase.
+- Site: internal hosted WordPress 7.1.3 installation with the BlueRoof WP Theme active and no added plugins.
 - Homepage: generic roofing content set as the static front page, with repair, replacement, inspection, maintenance, process, roof-material, FAQ, and contact sections.
 - Images: seven WebP files added to the Media Library. The homepage hero and five roof-material images were confirmed loaded before visual capture.
 - Lighthouse: 13.5.0, initial page load, custom throttling.
@@ -25,7 +25,7 @@ The timestamped PageSpeed screenshots below retain the captured report details. 
 - Desktop image delivery showed an estimated 135 KiB of possible savings, about 24 KiB related to cache lifetime, and one long main-thread task.
 - Best Practices scored 96 because the report logged a browser console error. The test session recorded a 404 for the theme JavaScript asset.
 - SEO scored 92. Lighthouse identified the missing meta description.
-- These issues describe the October 28 run. Theme version 0.1.1 packages the asset under a stable theme folder and supplies a fallback description. The internal WordPress install still needs that update and a fresh verification run.
+- These issues describe the October 28 run. Theme version 0.1.1 packages the asset under a stable theme folder and supplies a fallback description. The update was installed on October 28. The theme script returned HTTP 200, mobile navigation opened correctly, and the homepage included a meta description. These functional checks do not replace the original Lighthouse results above.
 
 These are results from one Lighthouse lab run. Scores and timings can vary by run and testing conditions. Potential savings are estimates, not measured changes to the score.
 

@@ -1,0 +1,8 @@
+Asset provenance
+
+The six *-glass.webp illustrations were created with the built-in image generation tool on October 28, 2026, then resized to 512 pixels and compressed as WebP.
+Prompt direction: one front-facing technology emblem in optically clear thick glass, polished silver bevels, white highlights, restrained electric lime reflections, and a charcoal background. Subjects: WordPress circular W, CSS3 shield and numeral 3, HTML5 shield and numeral 5, PHP oval, JavaScript JS tile, and WebP image document.
+
+Small PHP, HTML5, CSS3, and JavaScript SVG silhouettes originate from Devicon (https://github.com/devicons/devicon), recolored for this portfolio. See DEVICON-LICENSE.txt.
+The small WordPress silhouette originates from Simple Icons (https://github.com/simple-icons/simple-icons/blob/develop/icons/wordpress.svg), under CC0. WordPress and other technology names and marks belong to their respective owners. Their appearance identifies the technologies used.
+The small WebP document glyph is original SVG artwork.

@@ -260,3 +260,7 @@ p { color: var(--muted); }
   .preview-mobile>a img { object-fit: contain; }
   .stack-icon { width: 62px; min-width: 62px; height: 62px; }
 }
+
+/* Glass artwork uses a square viewport so highlights and logo contours stay intact. */
+.stack-icon { width: 112px; min-width: 112px; height: 112px; object-fit: contain; filter: none; border: 1px solid #39474f; border-radius: 10px; }
+@media (max-width: 600px) { .stack-icon { width: 88px; min-width: 88px; height: 88px; } }
