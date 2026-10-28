@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/case-study-banner.svg" alt="BlueRoof WP Theme, a roofing website system documented with live demo and dated evidence" width="100%">
+  <img src="assets/case-study-banner.svg" alt="BlueRoof WP Theme, a roofing website concept documented with an HTML preview and dated evidence" width="100%">
 </p>
 
 <p align="center"><strong>THE FIRST SCREEN / BLUE ROOFING CO.</strong></p>
@@ -22,13 +22,13 @@
 
 <p align="center"><strong>100 mobile performance · 100 desktop performance · captured October 28, 2026</strong></p>
 
-<p align="center"><a href="https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/">Open the case study</a> · <a href="https://wp1.rawlabs.paylesswatts.com/">Open the hosted WordPress demo</a> · <a href="https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/demo.html">Open the static page preview</a></p>
+<p align="center"><a href="https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/">Open the case study</a> · <a href="https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/demo.html">Open the HTML representation</a></p>
 
 # BlueRoof WP Theme
 
 BlueRoof is a custom classic WordPress theme concept for roofing businesses. It organizes the homepage around inspections, repairs, replacement, roof materials, process, questions, and estimate requests.
 
-This public repository presents the product, design decisions, live previews, and performance evidence. Theme root files remain in a separate private repository.
+This public repository presents the product, design decisions, HTML representation, and dated performance evidence. The representation reflects the theme's default WordPress experience. The hosted WordPress installation is reserved for internal testing and is not linked publicly. Theme root files remain in a separate private repository.
 
 ## What the design supports
 
@@ -45,7 +45,7 @@ This public repository presents the product, design decisions, live previews, an
 | Layer | Used for |
 | --- | --- |
 | <img src="assets/icons/php.svg" width="36" alt=""> PHP 8.0+ | WordPress theme templates and setup |
-| <img src="assets/icons/wordpress.svg" width="36" alt=""> WordPress 6.6+ | Theme framework, menus, Customizer, and content patterns; live demo checked on 7.1.3 |
+| <img src="assets/icons/wordpress.svg" width="36" alt=""> WordPress 6.6+ | Theme framework, menus, Customizer, and content patterns; internal test checked on 7.1.3 |
 | <img src="assets/icons/html5.svg" width="36" alt=""> HTML5 | Semantic content and accessible navigation |
 | <img src="assets/icons/css3.svg" width="36" alt=""> CSS3 | Responsive layouts, visual states, and reduced-motion behavior |
 | <img src="assets/icons/javascript.svg" width="36" alt=""> Vanilla JavaScript | Deferred menu and scroll-header interactions |
@@ -55,7 +55,7 @@ No page builder is required by the theme design. The hosted test homepage was po
 
 ## Performance evidence
 
-The hosted homepage scored 100 Performance in a single PageSpeed Insights Lighthouse run on both device profiles. The evidence was captured on October 28, 2026 at 12:16:47 PM CDT. The dated [performance record](performance/2026-10-28/README.md) includes the test setup, all category scores, timings, audit notes, and timestamped desktop and mobile screenshots.
+The internal WordPress test homepage scored 100 Performance in a single PageSpeed Insights Lighthouse run on both device profiles. The evidence was captured on October 28, 2026 at 12:16:47 PM CDT. The dated [performance record](performance/2026-10-28/README.md) includes the test setup, category scores, timings, audit notes, and timestamped screenshots.
 
 The screenshots are shown at the top of this README so reviewers can inspect the underlying reports before reading the feature summary. PageSpeed reported no CrUX field data for the test URL, so the scores are lab measurements rather than a record of user traffic.
 
@@ -63,15 +63,14 @@ The screenshots are shown at the top of this README so reviewers can inspect the
 
 Version `0.1.0` is a design and development candidate. ThemeForest has not reviewed or approved it. Before a commercial submission, the project needs a clean-install and compatibility review, accessibility and translation passes, final image-rights review, complete documentation, and an explicit marketplace submission check.
 
-The hosted report also logged a theme JavaScript asset error and a missing meta description. The JavaScript asset path needs correction and the live mobile menu needs a new interaction check. The preview contact form is disabled and stores no information.
+The October 28 report logged a missing theme JavaScript asset and a missing meta description. Theme version `0.1.1` prepares a stable install folder and a fallback description. The internal WordPress install still needs that update and a fresh mobile menu check. The HTML preview contact form is disabled and stores no information.
 
-Envato recommends a functional live preview that lets prospective buyers evaluate the theme's visual design and behavior. This case study keeps the screenshots, demo, stack, scope, and release status easy to review. [Envato item presentation guidance](https://help.author.envato.com/hc/en-us/articles/360000424863-Item-Presentation-Requirements).
+Envato recommends a functional live preview that lets prospective buyers evaluate the theme's visual design and behavior. This case study provides a static HTML representation of the default WordPress experience. The separate hosted install stays internal for testing. [Envato item presentation guidance](https://help.author.envato.com/hc/en-us/articles/360000424863-Item-Presentation-Requirements).
 
 ## Preview and contact
 
 - [Case study page](https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/)
-- [Hosted WordPress demo](https://wp1.rawlabs.paylesswatts.com/)
-- [Static roofing page preview](https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/demo.html)
+- [HTML representation of the default WordPress experience](https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/demo.html)
 - [Performance log](performance/2026-10-28/README.md)
 - [Joseph Edwards on GitHub](https://github.com/RawPowered)
 
