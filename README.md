@@ -4,7 +4,7 @@
 
 ![BlueRoof WP Theme desktop preview](screenshots/desktop.png)
 
-[Open the live design preview](https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/) · [View the mobile screenshot](screenshots/mobile.png) · [Contact the creator](https://github.com/RawPowered)
+[Open the live design preview](https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/) · [Desktop full page](screenshots/full-desktop.png) · [Mobile full page](screenshots/full-mobile.png) · [Contact the creator](https://github.com/RawPowered)
 
 BlueRoof WP Theme presents roofing services in plain language. The homepage moves from the first decision to service options, roof materials, the work process, common questions, and an estimate request.
 
