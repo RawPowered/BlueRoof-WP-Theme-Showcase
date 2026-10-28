@@ -22,7 +22,7 @@ document.addEventListener('keydown', event => {
 document.addEventListener('click', event => {
   if (header && !header.contains(event.target)) setMenu(false);
 });
-window.matchMedia('(min-width: 961px)').addEventListener('change', () => setMenu(false));
+window.matchMedia('(min-width: 1101px)').addEventListener('change', () => setMenu(false));
 
 let scrollQueued = false;
 function updateHeader() {

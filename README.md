@@ -13,7 +13,7 @@ BlueRoof WP Theme presents roofing services in plain language. The homepage move
 | Area | Approach |
 | --- | --- |
 | First screen | Large roof photography, direct headline, clear estimate and exploration paths |
-| Navigation | Centered wordmark, split desktop menu, compact scroll state, mobile menu |
+| Navigation | Centered logo across image sizes, balanced split links, compact scroll state, mobile menu |
 | Services | Inspection, repair, replacement, and maintenance sections |
 | Roof materials | Asphalt shingle, clay tile, concrete tile, metal, and low-slope visuals |
 | Readability | Large type, measured line lengths, strong contrast, generous spacing |
