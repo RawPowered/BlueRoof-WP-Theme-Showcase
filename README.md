@@ -42,23 +42,20 @@ This public repository presents the product, design decisions, HTML representati
 
 ## Technology
 
-<p align="center">
-  <img src="assets/icons/php-glass.webp" width="15%" alt="PHP glass icon">
-  <img src="assets/icons/wordpress-glass.webp" width="15%" alt="WordPress glass icon">
-  <img src="assets/icons/html5-glass.webp" width="15%" alt="HTML5 glass icon">
-  <img src="assets/icons/css3-glass.webp" width="15%" alt="CSS3 glass icon">
-  <img src="assets/icons/javascript-glass.webp" width="15%" alt="JavaScript glass icon">
-  <img src="assets/icons/webp-glass.webp" width="15%" alt="WebP glass icon">
-</p>
-
-| Layer | Used for |
-| --- | --- |
-| <img src="assets/icons/php.svg" width="32" height="32" alt=""> PHP 8.0+ | WordPress theme templates and setup |
-| <img src="assets/icons/wordpress.svg" width="32" height="32" alt=""> WordPress 6.6+ | Theme framework, menus, Customizer, and content patterns; internal test checked on 7.1.3 |
-| <img src="assets/icons/html5.svg" width="32" height="32" alt=""> HTML5 | Semantic content and accessible navigation |
-| <img src="assets/icons/css3.svg" width="32" height="32" alt=""> CSS3 | Responsive layouts, visual states, and reduced-motion behavior |
-| <img src="assets/icons/javascript.svg" width="32" height="32" alt=""> Vanilla JavaScript | Deferred menu and scroll-header interactions |
-| <img src="assets/icons/webp.svg" width="32" height="32" alt=""> WebP | Responsive hero and roof-material imagery |
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/icons/php-glass.webp" width="112" alt="Clear glass PHP emblem"><br><strong>PHP 8.0+</strong><br>Theme templates and WordPress integration</td>
+    <td align="center" width="50%"><img src="assets/icons/wordpress-glass.webp" width="112" alt="Clear glass WordPress emblem"><br><strong>WordPress 6.6+</strong><br>Menus, Customizer, and content patterns</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/icons/html5-glass.webp" width="112" alt="Clear glass HTML5 emblem"><br><strong>HTML5</strong><br>Semantic content and accessible navigation</td>
+    <td align="center"><img src="assets/icons/css3-glass.webp" width="112" alt="Clear glass CSS3 emblem"><br><strong>CSS3</strong><br>Responsive layouts and reduced motion support</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/icons/javascript-glass.webp" width="112" alt="Clear glass JavaScript emblem"><br><strong>Vanilla JavaScript</strong><br>Menu and scroll header interactions</td>
+    <td align="center"><img src="assets/icons/webp-glass.webp" width="112" alt="Clear glass WebP emblem"><br><strong>WebP</strong><br>Responsive roof imagery</td>
+  </tr>
+</table>
 
 No page builder is required by the theme design. The hosted test homepage was populated on a fresh WordPress install without added plugins.
 
