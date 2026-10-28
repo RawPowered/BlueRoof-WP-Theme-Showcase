@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">BlueRoof WP Theme case study</title>
+  <desc id="desc">Charcoal and lime case study banner for a custom WordPress roofing theme.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#171b1e"/>
+      <stop offset="1" stop-color="#090a0b"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#73787d" stroke-opacity=".12"/>
+    </pattern>
+  </defs>
+  <path d="M0 0H1165l35 35v225H0Z" fill="url(#bg)" stroke="#373a3d" stroke-width="2"/>
+  <path d="M0 0H350l-9 7H0Z" fill="#d5ff3f"/>
+  <path d="M0 0H1165l35 35v225H0Z" fill="url(#grid)"/>
+  <path d="M1116 1h47l36 36v36z" fill="#1b1d1f" stroke="#73787d"/>
+  <text x="62" y="62" fill="#d5ff3f" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">WEB / WORDPRESS / PRODUCT CASE</text>
+  <text x="62" y="145" fill="#f7f8f9" font-family="Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-3">BlueRoof WP Theme</text>
+  <text x="66" y="190" fill="#aeb3b8" font-family="Arial,sans-serif" font-size="22">A roofing website system, documented with live demo and dated evidence.</text>
+  <path d="M66 226h194" stroke="#d5ff3f" stroke-width="4"/>
+  <g transform="translate(905 65)">
+    <path d="M0 118 98 26l101 85v65H0Z" fill="#111417" stroke="#73787d" stroke-width="2"/>
+    <path d="m18 113 81-75 82 70" fill="none" stroke="#d5ff3f" stroke-width="5" stroke-linecap="square"/>
+    <path d="M49 174v-41h41v41m42 0v-48h30v48" fill="none" stroke="#aeb3b8" stroke-width="3"/>
+    <path d="M0 196h221" stroke="#373a3d" stroke-width="2"/>
+    <path d="M161 195h60" stroke="#d5ff3f" stroke-width="3"/>
+  </g>
+</svg>

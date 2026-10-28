@@ -14,7 +14,7 @@ Google PageSpeed Insights reported a Lighthouse Performance score of **100 on mo
 ## Test setup
 
 - URL: [https://wp1.rawlabs.paylesswatts.com/](https://wp1.rawlabs.paylesswatts.com/)
-- Site: fresh hosted WordPress installation with the BlueRoof WP Theme active and no added plugins.
+- Site: fresh hosted WordPress 7.1.3 installation with the BlueRoof WP Theme active and no added plugins.
 - Homepage: generic roofing content set as the static front page, with repair, replacement, inspection, maintenance, process, roof-material, FAQ, and contact sections.
 - Images: seven WebP files added to the Media Library. The homepage hero and five roof-material images were confirmed loaded before visual capture.
 - Lighthouse: 13.5.0, initial page load, custom throttling.
