@@ -35,6 +35,8 @@ This public repository presents the product, design decisions, HTML representati
 - A homeowner-focused service journey with direct estimate and service links.
 - Responsive layouts for desktop and mobile.
 - A centered logo with balanced split navigation, custom logo support, and compact scroll header behavior.
+- A three-photo hero with manual controls, a pause button, and restrained desktop parallax. Reduced motion preferences are respected.
+- A clearly labeled sample reviews layout. A separate reviews plugin supports Google Places, a shortcode, and an optional Elementor widget when connected to a business profile.
 - Service sections for inspection, repair, replacement, and maintenance.
 - Material imagery for asphalt shingles, clay tile, concrete tile, metal, and low-slope roofing.
 - WordPress page, post, archive, search, comments, sidebar, and 404 templates.
@@ -52,7 +54,7 @@ This public repository presents the product, design decisions, HTML representati
     <td align="center"><img src="assets/icons/css3-glass.webp" width="112" alt="Clear glass CSS3 emblem"><br><strong>CSS3</strong><br>Responsive layouts and reduced motion support</td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/icons/javascript-glass.webp" width="112" alt="Clear glass JavaScript emblem"><br><strong>Vanilla JavaScript</strong><br>Menu and scroll header interactions</td>
+    <td align="center"><img src="assets/icons/javascript-glass.webp" width="112" alt="Clear glass JavaScript emblem"><br><strong>Vanilla JavaScript</strong><br>Navigation, hero slider, and scroll effects</td>
     <td align="center"><img src="assets/icons/webp-glass.webp" width="112" alt="Clear glass WebP emblem"><br><strong>WebP</strong><br>Responsive roof imagery</td>
   </tr>
 </table>
@@ -63,11 +65,11 @@ No page builder is required by the theme design. The hosted test homepage was po
 
 The internal WordPress test homepage scored 100 Performance in a single PageSpeed Insights Lighthouse run on both device profiles. The evidence was captured on October 28, 2026 at 12:16:47 PM CDT. The dated [performance record](performance/2026-10-28/README.md) includes the test setup, category scores, timings, audit notes, and timestamped screenshots.
 
-The screenshots are shown at the top of this README so reviewers can inspect the underlying reports before reading the feature summary. PageSpeed reported no CrUX field data for the test URL, so these scores describe a controlled lab run.
+The screenshots are shown at the top of this README so reviewers can inspect the underlying reports before reading the feature summary. PageSpeed reported no CrUX field data for the test URL, so these scores describe a controlled lab run. The October 28 scores predate the slider and reviews work and are preserved as a dated baseline, not a current score claim.
 
 ## Project status
 
-Version `0.1.1` is installed and checked on WordPress. The update fixes the theme script path and adds a homepage meta description. The mobile navigation opens correctly.
+Version `0.2.0` is installed and checked on WordPress. The hosted homepage exercises the new slider and parallax. The independent reviews plugin rendered its labeled sample cards under both BlueRoof and Sunlectric Solar. Live Google reviews await the owner's API credentials and Place ID.
 
 The GitHub preview presents the default WordPress layout in HTML, including responsive navigation and scrolling behavior. Its contact form demonstrates the layout and does not submit information. Theme source is maintained privately.
 

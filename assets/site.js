@@ -37,3 +37,63 @@ window.addEventListener('scroll', () => {
 }, { passive: true });
 window.addEventListener('pageshow', updateHeader);
 updateHeader();
+
+document.querySelectorAll('[data-rb-slider]').forEach(slider => {
+  const hero = slider.closest('.rb-hero');
+  const slides = [...slider.querySelectorAll('.rb-slide')];
+  const controls = [...hero.querySelectorAll('[data-rb-slide]')];
+  const play = hero.querySelector('[data-rb-play]');
+  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let current = 0;
+  let paused = motion.matches;
+  let timer;
+  const show = index => {
+    current = (index + slides.length) % slides.length;
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('is-active', i === current);
+      slide.setAttribute('aria-hidden', String(i !== current));
+    });
+    controls.forEach((button, i) => {
+      button.classList.toggle('is-active', i === current);
+      if (i === current) button.setAttribute('aria-current', 'true');
+      else button.removeAttribute('aria-current');
+    });
+  };
+  const schedule = () => {
+    clearInterval(timer);
+    if (!paused && slides.length > 1) timer = setInterval(() => show(current + 1), 6500);
+  };
+  controls.forEach(button => button.addEventListener('click', () => {
+    show(Number(button.dataset.rbSlide));
+    schedule();
+  }));
+  play?.addEventListener('click', () => {
+    paused = !paused;
+    play.textContent = paused ? '▶' : 'Ⅱ';
+    play.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
+    schedule();
+  });
+  motion.addEventListener('change', () => {
+    paused = motion.matches;
+    if (play) {
+      play.textContent = paused ? '▶' : 'Ⅱ';
+      play.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
+    }
+    schedule();
+  });
+  const updateParallax = () => {
+    if (motion.matches || window.innerWidth < 761) {
+      slider.style.setProperty('--rb-parallax', '0px');
+      return;
+    }
+    const rect = hero.getBoundingClientRect();
+    if (rect.bottom > 0 && rect.top < innerHeight) {
+      slider.style.setProperty('--rb-parallax', `${Math.max(-40, Math.min(40, -rect.top * .08))}px`);
+    }
+  };
+  window.addEventListener('scroll', updateParallax, { passive: true });
+  window.addEventListener('resize', updateParallax, { passive: true });
+  show(0);
+  schedule();
+  updateParallax();
+});
