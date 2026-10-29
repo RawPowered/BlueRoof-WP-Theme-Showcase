@@ -16,11 +16,11 @@
 </p>
 
 <p align="center">
-  <a href="performance/2026-10-28/README.md"><img src="performance/2026-10-28/screenshots/2026-10-28T12-23-CDT_pagespeed-mobile.png" alt="Timestamped mobile PageSpeed Insights report with a performance score of 100" width="49%"></a>
-  <a href="performance/2026-10-28/README.md"><img src="performance/2026-10-28/screenshots/2026-10-28T12-24-CDT_pagespeed-desktop.png" alt="Timestamped desktop PageSpeed Insights report with a performance score of 100" width="49%"></a>
+  <a href="performance/2026-10-29/README.md"><img src="performance/2026-10-29/screenshots/2026-10-29T13-09-CDT_mobile-lighthouse.png" alt="October 29 hosted WordPress mobile Lighthouse report with a performance score of 100" width="49%"></a>
+  <a href="performance/2026-10-29/README.md"><img src="performance/2026-10-29/screenshots/2026-10-29T13-09-CDT_desktop-lighthouse.png" alt="October 29 hosted WordPress desktop Lighthouse report with a performance score of 100" width="49%"></a>
 </p>
 
-<p align="center"><strong>100 mobile performance · 100 desktop performance · captured October 28, 2026</strong></p>
+<p align="center"><strong>100 mobile performance · 100 desktop performance · captured October 29, 2026</strong></p>
 
 <p align="center"><a href="https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/">Open the case study</a> · <a href="https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/demo.html">Explore the preview</a></p>
 
@@ -63,9 +63,9 @@ No page builder is required by the theme design. The hosted test homepage was po
 
 ## Performance evidence
 
-The internal WordPress test homepage scored 100 Performance in a single PageSpeed Insights Lighthouse run on both device profiles. The evidence was captured on October 28, 2026 at 12:16:47 PM CDT. The dated [performance record](performance/2026-10-28/README.md) includes the test setup, category scores, timings, audit notes, and timestamped screenshots.
+The current hosted WordPress test homepage scored 100 Performance, 100 Accessibility, and 100 Best Practices on both Lighthouse profiles. The dated [October 29 record](performance/2026-10-29/README.md) includes test conditions, timings, repeat runs, and timestamped screenshots. The internal test address is omitted from the public record.
 
-The screenshots are shown at the top of this README so reviewers can inspect the underlying reports before reading the feature summary. PageSpeed reported no CrUX field data for the test URL, so these scores describe a controlled lab run. The October 28 scores predate the slider and reviews work and are preserved as a dated baseline, not a current score claim.
+The screenshots are shown at the top of this README so reviewers can inspect the result before reading the feature summary. These scores describe controlled lab runs. SEO scored 69 because the internal test site is deliberately blocked from indexing. The [October 28 record](performance/2026-10-28/README.md) remains available as an earlier baseline.
 
 ## Project status
 
@@ -77,7 +77,7 @@ The GitHub preview presents the default WordPress layout in HTML, including resp
 
 - [Case study page](https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/)
 - [HTML representation of the default WordPress experience](https://rawpowered.github.io/BlueRoof-WP-Theme-Showcase/demo.html)
-- [Performance log](performance/2026-10-28/README.md)
+- [Current hosted performance log](performance/2026-10-29/README.md)
 - [Joseph Edwards on GitHub](https://github.com/RawPowered)
 
 Design and development by [Joseph Edwards](https://github.com/RawPowered). Images and source are presented for portfolio review. This repository does not grant a reuse license.
